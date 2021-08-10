@@ -14,6 +14,7 @@
 		<div>
 			<a href="/date" >Date Template</a>
 			<a href="/time" >Time Template</a>
+			<c:out value="${count}" />
 		</div>
 	
 		<script src="/webjars/jquery/jquery.min.js"></script>
