@@ -13,7 +13,9 @@
 	<body onload=date()>
 		<div>
 			<h1>Date</h1>
-			<c:out value="${date}" />
+			<h4 class="date">
+				<c:out value="${date}" />
+			</h4>
 		</div>
 	
 		<script src="/webjars/jquery/jquery.min.js"></script>

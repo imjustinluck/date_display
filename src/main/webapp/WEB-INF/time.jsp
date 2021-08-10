@@ -13,7 +13,9 @@
 	<body onload=time()>
 		<div>
 			<h1>Time</h1>
-			<c:out value="${time}" />
+			<h4 class="time">
+				<c:out value="${time}" />
+			</h4>
 		</div>
 	
 		<script src="/webjars/jquery/jquery.min.js"></script>
